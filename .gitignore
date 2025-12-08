@@ -1,0 +1,4 @@
+node_modules
+.env
+/seller/.env
+/buyer/.env 
