@@ -6,6 +6,8 @@ Proyecto inspirado por el tutorial de Gilbers Ahumada https://www.youtube.com/wa
 
 Es un ejemplo sencillo de uso del protocolo x402 que permite el pago, en USDC, por el consumo de un servicio REST usando https://x402.org/facilitator 
 
+También se incluye un ejemplo de interacción con un servidor MCP (a través de Claude Destokp) con el mismo servicio REST
+
 ## Recursos
 
 - https://www.x402.org/x402-whitepaper.pdf
@@ -28,8 +30,14 @@ Es un ejemplo sencillo de uso del protocolo x402 que permite el pago, en USDC, p
 ## How2Run
 
 Configura los .env 
+
+Instala depedencias (npm install / yarn install)
+
 Arranca el seller (server que expone el endpoint /weather) con npm run dev
+
 Ejecuta el buyer con npm run dev
+
+Para el MCP server hay que utilizar yarn dev
 
 ## Test
 
